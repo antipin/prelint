@@ -3,6 +3,8 @@ preLint
 
 preLint passes your git staged files through [ESLint](http://eslint.org/) utility.
 
+Shines with [pre-commit](https://www.npmjs.com/package/pre-commit) module.
+
 Requirements
 ------------
 
