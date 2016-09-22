@@ -3,6 +3,8 @@
 const { execFile } = require('child_process')
 const { CLIEngine } = require('eslint')
 const friendlyFormatter = require('eslint-friendly-formatter')
+const ERROR_EXIT_CODE = 1
+const OK_EXIT_CODE = 0
 
 /**
  * Calls callback with list of staged files
@@ -53,14 +55,6 @@ getStagedFiles((err, files) => {
 
     console.log(report.text) // eslint-disable-line no-console
 
-    if (report.errorCount > 0) {
-
-        process.exit(1)
-
-    } else {
-
-        process.exit(0)
-
-    }
+    process.exit(report.errorCount > 0 ? ERROR_EXIT_CODE : OK_EXIT_CODE)
 
 })
