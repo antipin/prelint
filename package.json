@@ -9,7 +9,7 @@
   "bin": "src/prelint.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/antipin/prelint.git"
+    "url": "git+ssh://git@github.com/labs42/prelint.git"
   },
   "keywords": [
     "lint",
@@ -21,9 +21,9 @@
   "author": "Alexander I. Antipin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antipin/prelint/issues"
+    "url": "https://github.com/labs42/prelint/issues"
   },
-  "homepage": "https://github.com/antipin/prelint#readme",
+  "homepage": "https://github.com/labs42/prelint#readme",
   "dependencies": {
     "eslint": "3.5.0",
     "eslint-friendly-formatter": "2.0.6"
