@@ -1,0 +1,31 @@
+{
+  "name": "prelint",
+  "version": "1.0.0",
+  "description": "preLint passes your git staged files through ESLint utility",
+  "main": "src/prelint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "src/prelint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/antipin/prelint.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "git",
+    "staged",
+    "pre-commit"
+  ],
+  "author": "Alexander I. Antipin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antipin/prelint/issues"
+  },
+  "homepage": "https://github.com/antipin/prelint#readme",
+  "dependencies": {
+    "eslint": "3.5.0",
+    "eslint-friendly-formatter": "2.0.6"
+  }
+}
