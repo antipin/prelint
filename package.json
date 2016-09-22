@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/antipin/prelint#readme",
   "dependencies": {
-    "eslint": "3.5.0",
     "eslint-friendly-formatter": "2.0.6"
+  },
+  "peerDependencies": {
+    "eslint": "2.*"
   }
 }
