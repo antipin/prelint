@@ -3,6 +3,7 @@
 const { execFile } = require('child_process')
 const { CLIEngine } = require('eslint')
 const friendlyFormatter = require('eslint-friendly-formatter')
+
 const ERROR_EXIT_CODE = 1
 const OK_EXIT_CODE = 0
 
