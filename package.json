@@ -4,7 +4,8 @@
   "description": "preLint passes your git staged files through ESLint utility",
   "main": "src/prelint.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/prelint"
   },
   "bin": "src/prelint.js",
   "repository": {
@@ -26,6 +27,11 @@
   "homepage": "https://github.com/labs42/prelint#readme",
   "dependencies": {
     "eslint": "3.5.0",
-    "eslint-friendly-formatter": "2.0.6"
-  }
+    "eslint-friendly-formatter": "2.0.6",
+    "eslint-config-labs42": "1.0.2",
+    "prelint": "1.0.1"
+  },
+  "precommit": [
+    "lint"
+  ]
 }
