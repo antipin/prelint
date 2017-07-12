@@ -1,6 +1,6 @@
 {
   "name": "prelint",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "preLint passes your git staged files through ESLint utility",
   "main": "src/prelint.js",
   "scripts": {
