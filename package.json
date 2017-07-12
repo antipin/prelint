@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/labs42/prelint#readme",
   "dependencies": {
-    "eslint": "3.5.0",
-    "eslint-friendly-formatter": "2.0.6",
-    "eslint-config-labs42": "1.0.2",
+    "eslint": "4.2.0",
+    "eslint-config-labs42": "2.0.0",
+    "eslint-friendly-formatter": "3.0.0",
     "prelint": "1.0.1"
   },
   "precommit": [
