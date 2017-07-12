@@ -5,7 +5,7 @@
   "main": "src/prelint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/prelint"
+    "lint": "./src/prelint.js"
   },
   "bin": "src/prelint.js",
   "repository": {
@@ -28,8 +28,7 @@
   "dependencies": {
     "eslint": "4.2.0",
     "eslint-config-labs42": "2.0.0",
-    "eslint-friendly-formatter": "3.0.0",
-    "prelint": "1.0.1"
+    "eslint-friendly-formatter": "3.0.0"
   },
   "precommit": [
     "lint"
